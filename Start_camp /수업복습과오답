@@ -17,3 +17,45 @@ git commit -m"" 하기
 -> 해결방법은 esc 키를 누르는 것
 
 4. VIM 에서 그대로 맨 윗 줄에 입력된 사항을 적용하고 끝내기 위한 단축키는 ':wq' (소문자 필수)
+
+
+
+5. git branch <브랜치네임> : 브랜치 생성 명령어 
+   git branch : 브랜치 생성 후 head 브랜치와 생성된 브랜치 확인 명령어 
+
+
+ex)
+SSAFY@2□□PC045 MINGW64 ~/Desktop/sec_git_branch_practice (master)
+$ git branch login 
+
+SSAFY@2□□PC045 MINGW64 ~/Desktop/sec_git_branch_practice (master)
+$ git branch
+  login
+* master
+
+
+
+
+
+6. 
+
+SSAFY@2□□PC045 MINGW64 ~/Desktop/sec_git_branch_practice (master)
+$ git log --oneline
+2130efc (HEAD -> master, login) master-3
+c09b296 master-2
+4403048 master-1
+
+SSAFY@2□□PC045 MINGW64 ~/Desktop/sec_git_branch_practice (master)
+$ git add .
+
+SSAFY@2□□PC045 MINGW64 ~/Desktop/sec_git_branch_practice (master)
+$ git commit -m "master-4"
+[master d7d07f1] master-4
+ 1 file changed, 1 insertion(+)
+
+SSAFY@2□□PC045 MINGW64 ~/Desktop/sec_git_branch_practice (master)
+$ git log --oneline
+d7d07f1 (HEAD -> master) master-4
+2130efc (login) master-3
+c09b296 master-2
+4403048 master-1
