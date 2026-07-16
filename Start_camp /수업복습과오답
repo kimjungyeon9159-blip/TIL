@@ -1,4 +1,4 @@
-#0714
+# 0714
 
 1.변경사항이 생기면
 꼭 ctrl + S(저장) 한 후 
@@ -59,3 +59,15 @@ d7d07f1 (HEAD -> master) master-4
 2130efc (login) master-3
 c09b296 master-2
 4403048 master-1
+
+
+
+
+#0716
+
+npm install 후
+npm run dev
+
+
+git clone으로 받았으면 git remote add 한번 더 해야함?-> 이거는 git remote -V 로 확인하면 되고, clone으로 받았으면 자동으로 origin 설정 되어있을 것임
+
