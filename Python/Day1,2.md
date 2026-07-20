@@ -15,6 +15,28 @@ print(len(many_zero_list))
 * 숫자0을 25만개 가지고 있는 리스트와 그 길이 출력 *
 
 ```
+```
+title = '딕셔너리 활용하기'
+#data에 key와 value를 가진 dict를 할당한다
+#대괄호 하나만 있으면됨.
+data={'과목':'Python',
+      '구분':'실습','단계':int(2),
+      '문제번호':int(3251),
+      '이름':None,
+      '일차':int(22)}
+
+print(data)
+    #data 출력하기
+
+#딕셔너리 값 변경하기, key접근 시에는 []
+data['단계'] = str(2)+'단계'
+data['이름'] = title
+#복합연산자 사용하기 a-=b -> a=a-b
+#print는 코드 작성 맨 아래에, ctrl+s한 이후에 실행해야 변경 반영됨.
+data['일차'] -= int(20)
+print(data)
+
+```
 
 
 # 기억해야할 것
