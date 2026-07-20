@@ -15,6 +15,9 @@ print(len(many_zero_list))
 * 숫자0을 25만개 가지고 있는 리스트와 그 길이 출력 *
 
 ```
+
+### dict 변경과 불러오기
+
 ```
 title = '딕셔너리 활용하기'
 #data에 key와 value를 가진 dict를 할당한다
@@ -35,6 +38,14 @@ data['이름'] = title
 #print는 코드 작성 맨 아래에, ctrl+s한 이후에 실행해야 변경 반영됨.
 data['일차'] -= int(20)
 print(data)
+
+```
+### 정답
+```
+SSAFY@2□□PC045 MINGW64 ~/Desktop/python_ws_2_b (master)
+$ python ws_2_b.py 
+{'과목': 'Python', '구분': '실습', '단계': 2, '문제번호': 3251, '이름': None, '일차': 22}
+{'과목': 'Python', '구분': '실습', '단계': '2단계', '문제번호': 3251, '이름': '딕셔너리 활용하기', '일차': 2}
 
 ```
 
