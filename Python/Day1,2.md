@@ -5,12 +5,19 @@
 
 ### 정답
 zero_list=[0]
+
 print(zero_list)
+
 many_zero_list=('0'*250000)
+
 print(len(many_zero_list))
+
 *숫자0을 25만개 가지고 있는 리스트와 그 길이 출력
+
 numbers=range(1,11,1)
+
 print(list(numbers))
+
 print(list(numbers[3:]))
 
 
