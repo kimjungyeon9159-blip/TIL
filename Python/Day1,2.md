@@ -7,9 +7,6 @@
 
 ### 정답
 ```
-zero_list=[0]
-
-print(zero_list)
 
 many_zero_list=('0'*250000)
 
