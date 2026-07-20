@@ -4,6 +4,7 @@
 ## many_zero_list 의 길이를 출력한다. 
 
 ### 정답
+'''
 zero_list=[0]
 
 print(zero_list)
@@ -19,6 +20,7 @@ numbers=range(1,11,1)
 print(list(numbers))
 
 print(list(numbers[3:]))
+'''
 
 
 
