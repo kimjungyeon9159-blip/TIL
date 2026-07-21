@@ -88,6 +88,26 @@ print(result)
 4) def 안 ()에 함수에 사용할 인자르 작성하는 것을 잊지말기
 
 
+### 실습 1 오답
+
+
+```
+def default_arg_func(arg='기본 값'):
+    """입력된 기본 인자값을 return하는 함수
+    >>>default_arg_func()"""
+
+    return arg
+
+result_3 = default_arg_func()
+result_4 = default_arg_func('다른 값')
+
+print(result_3)
+print(result_4)
+
+```
+
+#### 주의점
+1) default_arg_func함수의 매개변수 default에 '기본 값' 문자열을 할당하여, 기본 인자값을 가지도록 수정하는 문제임.
 
 
 # 매개변수와 인자
