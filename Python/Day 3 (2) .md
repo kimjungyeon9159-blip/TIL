@@ -151,3 +151,52 @@ print(user_data)  # ('Alice', 30)
 
 ```
 
+
+## 람다 표현식(이름이 없는 익명함수를 만드는 것)
+
+
+1) 이름을 없앤다는 것은 1회용으로 사용하겠다는 의미.
+2) sorted 내장 함수
+
+```
+# 1. lambda 미사용
+# 정렬 기준 함수를 굳이 정의해야 함
+def get_age(student):
+    return student[1]
+
+
+# sorted 함수의 key 매개변수에 우리가 만든 get_age 함수를 전달
+result = sorted(students, key=get_age)
+print(result)  # [('서준', 20), ('지민', 25), ('민우', 30)]
+
+
+# =============================================================
+# [2] lambda 사용 - 한 번만 쓸 함수를 즉석에서 전달
+# - 결과는 [1]번과 완전히 동일하지만 코드가 훨씬 간결해짐
+# =============================================================
+
+# 2. lambda 사용
+"""
+get_age처럼 간단하고 한 번만 쓸 함수를 굳이 따로 정의할 필요 없이, lambda로 즉석에서 만들어 전달할 수 있습니다.
+key=lambda student: student[1]
+-> "정렬할 때 각 데이터를 student라고 부를게."
+-> "그리고 그 데이터의 1번 인덱스 값(나이)을 기준으로 삼아줘."
+"""
+result = sorted(students, key=lambda student: student[1])
+print(result)  # [('서준', 20), ('지민', 25), ('민우', 30)]
+```
+
+
+### lpmbda 변경 예시
+
+```
+# 람다 표현식 적용 전
+def addition(x, y):
+    return x + y
+
+
+# 람다 표현식 적용 후
+# def , addition 없어지고 lambda
+lambda x, y: x + y
+
+```
