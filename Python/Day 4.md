@@ -44,6 +44,9 @@ print(users)
 
 ## 기초예제 100제 (https://codeup.kr/problemsetsol.php?psid=33)
 
+####  아이디 : yeon9159 비번 : kite00
+
+
 1) 문자 중 ' 또는 " 만 출력하려면 각 문자 앞에 \ 를 붙이면 ( \', \") 가능.
 ```
 print('\"!@#$%^&*()\'') #"!@#$%^&*()'
