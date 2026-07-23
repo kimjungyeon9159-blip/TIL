@@ -15,7 +15,7 @@
 
 
 ```
-# 아래 함수를 수정하시오.
+
 def count_character(sentence,char):
     """주어진 문자열에서 특정 문자의 개수를 세어 반환하는 함수입니다.
     >>> count_character(hello)
