@@ -69,11 +69,13 @@ company은/는 samsung입니다.
 is_collapsible은/는 True입니다.
 
 
+
 name은/는 ipad입니다.
 
 company은/는 unknown입니다.
 
 is_collapsible은/는 False입니다.
+
 
 
 name은/는 galxy fold입니다.
@@ -83,11 +85,13 @@ company은/는 samsung입니다.
 is_collapsible은/는 True입니다.
 
 
+
 name은/는 galxy note입니다.
 
 company은/는 samsung입니다.
 
 is_collapsible은/는 False입니다.
+
 
 
 name은/는 optimus입니다.
