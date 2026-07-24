@@ -61,7 +61,7 @@ for item in data:
 ## 출력결과
 
 
-$ python ws_6_c.py 
+
 name은/는 galxy flip입니다.
 
 company은/는 samsung입니다.
