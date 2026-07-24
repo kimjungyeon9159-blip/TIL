@@ -68,7 +68,7 @@ company은/는 samsung입니다.
 
 is_collapsible은/는 True입니다.
 
-
+---
 
 name은/는 ipad입니다.
 
@@ -76,7 +76,7 @@ company은/는 unknown입니다.
 
 is_collapsible은/는 False입니다.
 
-
+---
 
 name은/는 galxy fold입니다.
 
@@ -84,7 +84,7 @@ company은/는 samsung입니다.
 
 is_collapsible은/는 True입니다.
 
-
+---
 
 name은/는 galxy note입니다.
 
@@ -92,7 +92,7 @@ company은/는 samsung입니다.
 
 is_collapsible은/는 False입니다.
 
-
+---
 
 name은/는 optimus입니다.
 
@@ -105,5 +105,6 @@ is_collapsible은/는 False입니다.
 
 1)**D.setdefault(k,v)** 의 의미는 딕셔너리 D에서 키 k와 연결된 값을 반환. k가 D의 키가 아니면 값 v와 연결한 키 k를 D에 추가하고 v를 반환.
 따라서, **value = item.setdefault(key, 'unknown')**  # key가 없으면 'unknown'을 추가하고 반환
+
 2)dict사이 구분을 위한 빈 줄을 출력 결과에 내기 위해서는  **print()** 쓰기
 
