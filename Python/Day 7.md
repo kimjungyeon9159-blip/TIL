@@ -69,3 +69,16 @@ self도 cls도 받지 않습니다. 그냥 클래스 안에 있는 "일반 함�
 self.name처럼 **"이 인스턴스만의 값"**을 다뤄야 한다 → 인스턴스 메서드
 인스턴스랑 상관없이 누가 불러도 똑같이 동작한다 → 스태틱 메서드 (예: 단위 변환, 설명 출력, 유효성 검사)
 ```
+3) **print(Myth.type_of_myth)** 과 **Myth.description()** 에 대한 추가 설명
+
+##### print(Myth.type_of_myth)
+
+type_of_myth는 클래스 변수라서 myth1이나 myth2 같은 특정 인스턴스에 속한 게 아니라 Myth 클래스 자체에 붙어있습니다.
+__init__이 호출될 때마다 Myth.type_of_myth += 1이 실행됐으니, 지금까지 myth1, myth2 두 개를 만들었다면 이 시점엔 2가 출력됩니다.
+myth1.type_of_myth로 접근해도 값은 똑같이 나오지만(인스턴스에서 클래스 변수를 조회하는 건 허용되니까), 이 값이 인스턴스 개별 값이 아니라 클래스 전체가 공유하는 값이라는 걸 명확히 하려고 Myth.type_of_myth로 쓴 겁니다.
+
+##### Myth.description()
+
+description은 @staticmethod로 정의됐기 때문에 self도 cls도 받지 않습니다.
+그래서 myth1.description()처럼 인스턴스를 통해 불러도 되고, Myth.description()처럼 클래스 이름으로 바로 불러도 됩니다 — 둘 다 동일하게 동작해요.
+여기선 인스턴스와 무관한 공통 설명이라 Myth.description()으로 호출한 겁니다.
