@@ -136,10 +136,10 @@ class Pet(Dog, Cat):  # Dog, Cat을 다중 상속
         return Animal.num_of_animal  # 공유되는 클래스 속성 반환
 
 
-*# dog = Dog()*
-*# print(f'동물의 수는 {Pet.access_num_of_animal()}마리입니다.')*
-*# cat = Cat()*
-*# print(f'동물의 수는 {Pet.access_num_of_animal()}마리입니다.')*
+# dog = Dog()
+# print(f'동물의 수는 {Pet.access_num_of_animal()}마리입니다.')
+# cat = Cat()
+# print(f'동물의 수는 {Pet.access_num_of_animal()}마리입니다.')
 
 
 pet = Pet()
