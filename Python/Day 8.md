@@ -161,8 +161,11 @@ print(Pet.access_num_of_animal())
 ### 출력결과 
 
  python ws_8_1.py 
+ 
 멍멍
+
 야옹
+
 1
 
 
